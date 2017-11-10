@@ -1,0 +1,22 @@
+{
+  "name": "cantyjeffrey-graphql",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "now": {
+    "name": "cantyjeffrey-graphql",
+    "alias": "graphql.jff.re",
+    "dotenv": true,
+    "public": false
+  },
+  "dependencies": {
+    "cf-graphql": "^0.5.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11"
+  }
+}
