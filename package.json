@@ -1,5 +1,5 @@
 {
-  "name": "cantyjeffrey-graphql",
+  "name": "resume-api",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,8 +7,8 @@
     "start": "node index.js"
   },
   "now": {
-    "name": "cantyjeffrey-graphql",
-    "alias": "graphql.jff.re",
+    "name": "resume-api",
+    "alias": "resume-api.jff.re",
     "dotenv": true,
     "public": false
   },

@@ -19,6 +19,7 @@ const startServer = async (config, client, schema) => {
   const { port } = config;
   const app = express();
   app.use(cors());
+  app.get("/ping", (req, res) => res.send("pong"));
   app.use(
     "/",
     graphqlHTTP(function() {
